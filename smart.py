@@ -28,32 +28,31 @@ class Calculator:
             num2 = self.values['num2']
             if self.values['+']:
                 try:
-                    resultado = float(num1) + float(num2)
-                    print(resultado)
+                    result = float(num1) + float(num2)
+                    print(result)
                 except ValueError:
-                    print('Utilize apenas números!')
+                    print('Only use numbers!')
             elif self.values['-']:
                 try:
-                    resultado = float(num1) - float(num2)
-                    print(resultado)
+                    result = float(num1) - float(num2)
+                    print(result)
                 except ValueError:
-                    print('Utilize apenas números!')
+                    print('Only use numbers!')
             elif self.values['*']:
                 try:
-                    resultado = float(num1) * float(num2)
-                    print(resultado)
+                    result = float(num1) * float(num2)
+                    print(result)
                 except ValueError:
-                    print('Utilize apenas números!')
+                    print('Only use numbers!')
             elif self.values['/']:
                 try:
-                    resultado = float(num1) / float(num2)
-                    print(resultado)
+                    result = float(num1) / float(num2)
+                    print(result)
                 except ValueError:
-                    print('Utilize apenas números!')
+                    print('Only use numbers!')
 
 
-
-tela = Calculator()
-tela.iniciate()
+smart = Calculator()
+smart.iniciate()
 
 
